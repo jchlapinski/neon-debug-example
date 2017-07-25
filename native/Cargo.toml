@@ -1,0 +1,16 @@
+[package]
+name = "neon-debug-example"
+version = "0.1.0"
+authors = ["jchlapinski <jakub.chlapinski@kodegenix.pl>"]
+license = "MIT"
+build = "build.rs"
+
+[lib]
+name = "neon_debug_example"
+crate-type = ["dylib"]
+
+[build-dependencies]
+neon-build = "0.1.18"
+
+[dependencies]
+neon = "0.1.18"
